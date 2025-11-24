@@ -1,0 +1,20 @@
+{
+  "name": "flashshare",
+  "version": "1.0.0",
+  "description": "Ephemeral file sharing service",
+  "main": "server.js",
+  "author": {
+    "name": "Newton Fernandis"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.3",
+    "sqlite3": "^5.1.6",
+    "uuid": "^9.0.1"
+  }
+}
